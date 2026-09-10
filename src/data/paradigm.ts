@@ -113,22 +113,18 @@ export interface MindToFollow {
 }
 
 export const reactionTypes = [
-  { type: 'appreciate', emoji: '🕯️', label: 'Appreciate' },
-  { type: 'insightful', emoji: '💡', label: 'Insightful' },
-  { type: 'provocative', emoji: '🔥', label: 'Provocative' },
-  { type: 'beautiful', emoji: '🌹', label: 'Beautiful' },
-  { type: 'disagree', emoji: '🤔', label: 'Disagree' },
+  { id: 'appreciate', emoji: '\u{1FAB6}', label: 'Appreciate', color: '#C9A84C' },
+  { id: 'enlightened', emoji: '\u{1F4A1}', label: 'Enlightened', color: '#E8C97A' },
+  { id: 'brilliant', emoji: '\u{1F525}', label: 'Brilliant', color: '#FF6B35' },
+  { id: 'resonate', emoji: '\u{1F91D}', label: 'Resonate', color: '#6B9BAC' },
+  { id: 'thought_provoking', emoji: '\u{1F4AD}', label: 'Thought-Provoking', color: '#9B8EC4' },
+  { id: 'moved', emoji: '\u2764\uFE0F', label: 'Moved', color: '#C45C5C' },
 ];
 
 export const categories = [
-  'Philosophy',
-  'Literature',
-  'Poetry',
-  'History',
-  'Science',
-  'Art',
-  'Culture',
-  'Politics',
+  'Philosophy', 'Literature', 'Science', 'Culture', 'Politics',
+  'Personal Essay', 'Poetry', 'History', 'Psychology', 'Art & Criticism',
+  'World Affairs', 'Technology & Ethics',
 ];
 
 export const storyBgOptions = ['gold', 'blue', 'red', 'green'];
