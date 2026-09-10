@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Users, TrendingUp } from 'lucide-react';
-import { mockCircles } from '../data/mockData';
+import { mockCircles } from '../data/paradigm';
 
 export default function CirclesPage() {
   const [circles, setCircles] = useState(mockCircles);

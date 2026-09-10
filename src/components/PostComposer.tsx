@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Image, FileText, MessageSquare, Tag, Upload, Bold, Italic, Link, List, Quote, Globe, Users, Lock } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { categories } from '../data/mockData';
+import { categories } from '../data/paradigm';
 
 type Mode = 'thought' | 'article' | 'photo';
 type Privacy = 'public' | 'friends' | 'only_me';

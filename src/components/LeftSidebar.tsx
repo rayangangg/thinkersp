@@ -5,7 +5,7 @@ import {
   Bell, MessageSquare, Settings, Hash, Sun, Moon
 } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { trendingTopics } from '../data/mockData';
+import { trendingTopics } from '../data/paradigm';
 
 const navItems = [
   { id: 'home', icon: Home, label: 'Home Feed' },

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Search, X } from 'lucide-react';
-import { mockPosts, mockUsers, trendingTopics } from '../data/mockData';
+import { mockPosts, mockUsers, trendingTopics } from '../data/paradigm';
 import { useApp } from '../context/AppContext';
 
 const searchTabs = ['All', 'Articles', 'People', 'Tags', 'Circles'];

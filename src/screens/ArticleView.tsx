@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Bookmark, Share2, MessageCircle, Clock, Tag } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { reactionTypes } from '../data/mockData';
+import { reactionTypes } from '../data/paradigm';
 
 export default function ArticleView() {
   const { selectedPost, setSelectedPost, setActiveView, toggleBookmark } = useApp();

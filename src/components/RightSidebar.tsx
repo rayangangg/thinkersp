@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { BookOpen, TrendingUp } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { mindsToFollow, todaysParadigm, trendingTopics, mockUsers } from '../data/mockData';
+import { mindsToFollow, todaysParadigm, trendingTopics, mockUsers } from '../data/paradigm';
 
 export default function RightSidebar() {
   const { setActiveView } = useApp();

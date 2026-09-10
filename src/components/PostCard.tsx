@@ -4,7 +4,7 @@ import {
   Bookmark, Share2, MessageCircle, MoreHorizontal,
   Globe, Send, ChevronDown, ChevronUp, ExternalLink
 } from 'lucide-react';
-import { Post, Comment, reactionTypes } from '../data/mockData';
+import { Post, Comment, reactionTypes } from '../data/paradigm';
 import { useApp } from '../context/AppContext';
 
 const bgStyles: Record<string, React.CSSProperties> = {

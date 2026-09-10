@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Send, Plus, Video, Phone, Image, FileText, Smile } from 'lucide-react';
 import { useApp } from '../context/AppContext';
-import { mockConversations } from '../data/mockData';
+import { mockConversations } from '../data/paradigm';
 
 function MessageBubble({ msg, isOwn }: { msg: { id: string; content: string; timestamp: string; seen: boolean; type: string }; isOwn: boolean }) {
   return (

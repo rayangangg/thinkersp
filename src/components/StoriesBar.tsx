@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, X, ChevronLeft, ChevronRight } from 'lucide-react';
-import { mockStories, currentUser } from '../data/mockData';
-import { Story } from '../data/mockData';
+import { mockStories, currentUser } from '../data/paradigm';
+import { Story } from '../data/paradigm';
 
 const bgStyles: Record<string, React.CSSProperties> = {
   gold: { background: 'linear-gradient(135deg, #1a1200, #2a1f00, #1a1200)' },

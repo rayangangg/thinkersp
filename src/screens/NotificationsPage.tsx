@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useApp } from '../context/AppContext';
-import { Notification } from '../data/mockData';
+import { Notification } from '../data/paradigm';
 
 const filterTabs = ['All', 'Appreciations', 'Comments', 'Follows', 'Mentions'];
 
